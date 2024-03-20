@@ -3,6 +3,7 @@ import ImageSlider from './components/ImageSlider';
 import LoadProducts from './components/Load_Products';
 import TreeView from './components/TreeView';
 import menus from './components/TreeView/data';
+import QRCodeGenerator from './components/qr-code';
 // import Accordian from './components/accordian/SingleAccordian';
 import StarRating from './components/star-ratings';
 
@@ -17,7 +18,8 @@ function App() {
 
       {/* <LoadProducts  /> */}
 
-      <TreeView menus={menus}/>
+      {/* <TreeView menus={menus}/> */}
+      <QRCodeGenerator/>
     </div>
   );
 }
