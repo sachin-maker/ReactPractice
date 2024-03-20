@@ -1,6 +1,8 @@
 import './App.css';
 import ImageSlider from './components/ImageSlider';
 import LoadProducts from './components/Load_Products';
+import TreeView from './components/TreeView';
+import menus from './components/TreeView/data';
 // import Accordian from './components/accordian/SingleAccordian';
 import StarRating from './components/star-ratings';
 
@@ -13,7 +15,9 @@ function App() {
 
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={20} /> */}
 
-      <LoadProducts  />
+      {/* <LoadProducts  /> */}
+
+      <TreeView menus={menus}/>
     </div>
   );
 }
