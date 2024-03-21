@@ -4,8 +4,9 @@ import LoadProducts from './components/Load_Products';
 import TreeView from './components/TreeView';
 import menus from './components/TreeView/data';
 import QRCodeGenerator from './components/qr-code';
-// import Accordian from './components/accordian/SingleAccordian';
+import Accordian from './components/accordian/SingleAccordian';
 import StarRating from './components/star-ratings';
+import DarkTheme from './components/Theme-dark';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
       {/* <LoadProducts  /> */}
 
       {/* <TreeView menus={menus}/> */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+
+      <DarkTheme />
     </div>
   );
 }
