@@ -46,14 +46,16 @@ const LoadProducts = () => {
   return (
     <div className="load-more-container">
       <div className="product-container">
-        {products && products.length
+        {
+        products && products.length
           ? products.map((item) => (
               <div className="product" key={item.id}>
                 <img src={item.thumbnail} alt={item.title} />
                 <p>{item.title}</p>
               </div>
             ))
-          : null}
+          : null
+          }
       </div>
       <div className="button-container">
         <button disabled={disableButton} onClick={() => setCount(count + 1)}>

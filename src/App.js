@@ -7,6 +7,7 @@ import QRCodeGenerator from './components/qr-code';
 import Accordian from './components/accordian/SingleAccordian';
 import StarRating from './components/star-ratings';
 import DarkTheme from './components/Theme-dark';
+import CustomScroll from './components/CustomScroll';
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       {/* <TreeView menus={menus}/> */}
       {/* <QRCodeGenerator/> */}
 
-      <DarkTheme />
+      {/* <DarkTheme /> */}
+
+      <CustomScroll url={"https://dummyjson.com/products?limit=100"}/>
     </div>
   );
 }
