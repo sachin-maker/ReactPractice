@@ -8,6 +8,9 @@ import Accordian from './components/accordian/SingleAccordian';
 import StarRating from './components/star-ratings';
 import DarkTheme from './components/Theme-dark';
 import CustomScroll from './components/CustomScroll';
+import TabTest from './components/custom-tabs/index.js';
+import ModalPopup from './components/custom-model-popup/index.js';
+import GithubProfileFinder from './components/github-profile-finder/index.js';
 
 function App() {
   return (
@@ -25,7 +28,12 @@ function App() {
 
       {/* <DarkTheme /> */}
 
-      <CustomScroll url={"https://dummyjson.com/products?limit=100"}/>
+      {/* <CustomScroll url={"https://dummyjson.com/products?limit=100"}/> */}
+
+      {/* <TabTest/> */}
+
+      {/* <ModalPopup/> */}
+      <GithubProfileFinder/>
     </div>
   );
 }
