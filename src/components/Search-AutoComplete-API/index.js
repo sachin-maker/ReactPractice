@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import Suggestions from "./Suggestions";
 
-
-
-
 const SearchAutoComplete = () => {
 
     const [userData, setUserData] = useState([]);
@@ -11,7 +8,6 @@ const SearchAutoComplete = () => {
     const [searchParams, setSearchParams] = useState("");
     const [dropDown, setDropDown] = useState(false)
     const [filteredUsers, setFilteredUsers] = useState([]);
-
 
 
     const handleChange = (event) => {
