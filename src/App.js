@@ -11,6 +11,7 @@ import CustomScroll from './components/CustomScroll';
 import TabTest from './components/custom-tabs/index.js';
 import ModalPopup from './components/custom-model-popup/index.js';
 import GithubProfileFinder from './components/github-profile-finder/index.js';
+import SearchAutoComplete from './components/Search-AutoComplete-API/index.js';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <TabTest/> */}
 
       {/* <ModalPopup/> */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <SearchAutoComplete />
     </div>
   );
 }
