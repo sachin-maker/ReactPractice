@@ -13,31 +13,60 @@ import ModalPopup from './components/custom-model-popup/index.js';
 import GithubProfileFinder from './components/github-profile-finder/index.js';
 import SearchAutoComplete from './components/Search-AutoComplete-API/index.js';
 import TicTacToe from './components/Tic-tac-toe/TicTacToe.jsx';
+import FeatureFlagGlobalState from './components/feature-flag/ContextAPI/index.js';
+import FeatureFlags from './components/feature-flag/feature_flag.jsx';
 
 function App() {
   return (
     <div className="App">
+
+      {/* task 1 */}
       {/* <Accordian /> */}
 
+      {/* task 1 */}
       {/* <StarRating noOfStars={10} /> */}
 
+      {/* task 1 */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={20} /> */}
 
+      {/* task 1 */}
       {/* <LoadProducts  /> */}
 
+      {/* task 1 */}
       {/* <TreeView menus={menus}/> */}
+
+      {/* task 1 */}
       {/* <QRCodeGenerator/> */}
 
+      {/* task 1 */}
       {/* <DarkTheme /> */}
 
+      {/* task 1 */}
       {/* <CustomScroll url={"https://dummyjson.com/products?limit=100"}/> */}
 
+      {/* task 1 */}
       {/* <TabTest/> */}
 
+      {/* task 1 */}
       {/* <ModalPopup/> */}
+
+      {/* task 1 */}
       {/* <GithubProfileFinder/> */}
+
+      {/* task 1 */}
       {/* <SearchAutoComplete /> */}
+
+      {/* task 1 */}
       <TicTacToe />
+
+      {/* task 1 */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
+
+
+
+
     </div>
   );
 }
